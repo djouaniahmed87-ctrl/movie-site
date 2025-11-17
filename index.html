@@ -111,21 +111,18 @@ Legal reminder: Only link to legal sources (Tubi, Plex, YouTube, Public Domain f
     <!-- HERO -->
     <main id="app">
       <section id="home" class="page">
-        <div class="hero">
-          <div class="hero-card">
-            <div class="featured">
-              <img src="https://picsum.photos/seed/film1/400/600" alt="poster" class="poster"/>
-              <div>
-                <h1>Featured: The Lost Chronicle</h1>
-                <p class="lead">An epic adventure - watch the trailer, view streaming links or download (legal sources only).</p>
-                <div style="margin-top:12px">
-                  <a class="btn" data-shortlink="https://YOUR_SHORT_LINK" onclick="openShort(event)">▶ Watch Now</a>
-                  <a class="btn ghost" style="margin-left:8px" data-shortlink="https://YOUR_SHORT_LINK" onclick="openShort(event)">⬇ Download</a>
-                </div>
-                <div style="margin-top:12px" class="muted small">Tip: Replace the buttons' data-shortlink with your ShrinkMe.io URLs.</div>
-              </div>
-            </div>
-          </div>
+        <div class="hero"><div class="card">
+  <img class="thumb" src="https://example.com/posters/materialists.jpg" alt="Materialists 2025">
+  <div class="meta">
+    <div class="title">Materialists</div>
+    <div class="sub muted small">2025 • Comedy/Romance</div>
+    <div style="margin-top:10px;display:flex;gap:8px">
+      <a class="btn" data-movie-id="materialists" onclick="openMovie(event)">View</a>
+      <a class="btn ghost" data-shortlink="https://shrinkme.io/abcd123" onclick="openShort(event)">Watch</a>
+      <a class="btn ghost" data-shortlink="https://shrinkme.io/abcd124" onclick="openShort(event)">Download</a>
+    </div>
+  </div>
+</div>
 
           <aside>
             <div class="hero-card" style="width:100%;max-width:340px">
